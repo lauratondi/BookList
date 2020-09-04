@@ -30,7 +30,6 @@ UI.prototype.showAlert = function (message, className) {
   const div = document.createElement('div');
   // Add classes
   div.className = `alert ${className}`;
-
   // Add text
   div.appendChild(document.createTextNode(message));
   // Get parent
